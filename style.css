@@ -1,0 +1,62 @@
+	#navbar{
+		margin-left: -8px;
+		margin-top: -15px;
+		margin-right: -8px;
+		background-color: darkcyan;
+		padding: 20px;
+		text-align: center;
+	}
+
+	#newTask{
+		width: 50%;
+		/* max-width: 500px; */
+		padding: 10px;
+		border-radius: 3px;
+		overflow: hidden;
+		box-shadow: 0 1px 2px 2px gray;
+		background-color: darkgray;
+	}
+
+	#newtaskInput{
+		text-align: left;
+		vertical-align: left;
+	}
+
+	#allTasks{
+		right: 0;
+		left: 0;
+		position: fixed;
+		max-height: 40%;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+
+	.tasks{
+		padding: 5px;
+		border-radius: 2px;
+		box-shadow: 0 1px 1px 2px gray;
+		margin: 10px;
+		float: left;
+	}
+
+	input[type="text"], textarea{
+		padding: 5px;
+		border-radius: 3px;
+		margin-bottom: 10px;
+		width: 80%;
+	}
+
+	#addBtn{
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+		float: right;
+		box-shadow: 1px 2px 3px 2px gray;
+
+		/*padding: 10px;*/
+		background-color: red;
+		line-height: 50px;
+		text-align: center;
+		vertical-align: center;
+
+	}

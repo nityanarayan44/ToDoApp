@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- 
+	ToDo Task Web Application
+	-------------------------
+@Author: Ashutosh Mishra
+@Date: 12/09/2016
+-->
+
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet">
+		<title>Welcome App-1</title>
+	</head>
+
+	<body>
+		
+		<header id="navbar">
+			<h2>TODO Application</h2>
+		</header>
+		<hr/>
+
+		<center>
+		<div id="newTask">
+			<h5>Add New Task</h5>
+			<!--div id="newtaskInput"-->
+				<input id="taskttl" type="text" placeholder="Task title" name="taskTitle" required/><br/>
+				<input id="tasksmry" type="text" placeholder="Task title" name="taskSummary" required /><br/>
+				<textarea id="taskdesc" placeholder="Discription of task..." required></textarea><br/>
+				<button id="addBtn" onclick="javascript:addTask();"> + </button>
+			<!--/div-->
+		</div></center>
+
+		<hr/>
+		<div id="allTasks">
+
+			<!-- All added task will be shown here. -->
+
+		</div>
+
+	</body>
+
+	<!-- JavaSccript Code -->
+	<script src="todo.js"></script>
+	<script type="text/javascript"></script>
+</html>
