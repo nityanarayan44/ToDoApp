@@ -2,5 +2,5 @@
 Todo task web application.  
 
 <p align="center">
-  <img src="./ScreenShot.PNG" width="500"/>
+  <img src="./ScreenShot-1.PNG" width="500"/>
 </p>
